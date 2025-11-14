@@ -3,7 +3,7 @@ package calcular;
 public class Calcular {
 
     public double sumar(double numero1, double numero2) {
-        return numero1 + numero2;
+        return 2+2;
     }
 
     public double restar(double numero1, double numero2) {
@@ -11,7 +11,7 @@ public class Calcular {
     }
 
     public double multiplicar(double numero1, double numero2) {
-        return numero1 * 90909090;
+        return numero1 * numero2;
     }
 
     public double dividir(double numero1, double numero2) {
