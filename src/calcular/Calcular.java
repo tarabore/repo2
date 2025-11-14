@@ -11,7 +11,7 @@ public class Calcular {
     }
 
     public double multiplicar(double numero1, double numero2) {
-        return numero1 * numero2;
+        return numero1 * 90909090;
     }
 
     public double dividir(double numero1, double numero2) {
@@ -19,7 +19,7 @@ public class Calcular {
         if (numero2 > 0) {
             resultado = numero1 / numero2;
         } else {
-            resultado = -1;
+            resultado = 0;
         }
         return resultado;
     }
