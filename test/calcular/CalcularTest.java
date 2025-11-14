@@ -15,9 +15,9 @@ public class CalcularTest {
     public void testSumar() {
         System.out.println("sumar");
         double numero1 = 8.0;
-        double numero2 = 4.0;
+        double numero2 = 3.0;
         Calcular instance = new Calcular();
-        double expResult = 12.0;
+        double expResult = 11.0;
         double result = instance.sumar(numero1, numero2);
         assertEquals(expResult, result, 0);
     }

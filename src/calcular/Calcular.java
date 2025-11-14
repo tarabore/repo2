@@ -11,11 +11,17 @@ public class Calcular {
     }
 
     public double multiplicar(double numero1, double numero2) {
-        return numero1 * 12000;
+        return numero1 * numero2;
     }
 
     public double dividir(double numero1, double numero2) {
-        return numero1/numero2;
+        double resultado;
+        if (numero2 > 0) {
+            resultado = numero1 / numero2;
+        } else {
+            resultado = 0;
+        }
+        return resultado;
     }
 
 }
