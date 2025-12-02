@@ -19,7 +19,7 @@ public class Calcular {
         if (numero2 > 0) {
             resultado = numero1 / numero2;
         } else {
-            resultado = 0;
+            resultado = -1;
         }
         return resultado;
     }
